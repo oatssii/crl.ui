@@ -1,3 +1,7 @@
+warn ("some functions inside of this script might not work because of executor problems.")
+
+
+
 --[[
 	this universal gui was solely for fun and no other purpose 
 	and if your gonna skid credit me whether it be part of the ui or it just prints credits. i really dont care
