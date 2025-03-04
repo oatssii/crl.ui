@@ -1,4 +1,4 @@
-warn ("some functions inside of this script might not work because of executor problems.")
+warn ("because of roblox updates/executors, not all functions inside this script will work properly. dont complain")
 
 
 
@@ -15,7 +15,7 @@ end
 -- Check whitelist
 local player = game.Players.LocalPlayer
 
-if player.Name == "starronyxx" then
+if player.Name == "starronyxx" or "riskyhaulownertest"  then
 	print("Whitelisted, welcome to cereal!")
 	else
 		player:Kick("u arent whitelisted skid")
@@ -65,9 +65,9 @@ local oldVolume = gameSettings.MasterVolume
 -- Configurable Core Values
 local cerealValues = {
 	cerealVersion = "1.24",
-	cerealName = "cereal",
+	cerealName = "sirius",
 	releaseType = "Stable",
-	cerealFolder = "cereal",
+	cerealFolder = "ceereeuss",
 	settingsFile = "settings.srs",
 	interfaceAsset = 14183548964,
 	cdn = "https://cdn.sirius.menu/SIRIUS-SCRIPT-CORE-ASSETS/",
@@ -362,13 +362,13 @@ local cerealValues = {
 local cerealSettings = {
 	{
 		name = 'General',
-		description = 'The general settings for cereal, from simple to unique features.',
+		description = 'The general settings for sirius, from simple to unique features.',
 		color = Color3.new(0.117647, 0.490196, 0.72549),
 		minimumLicense = 'Free',
 		categorySettings = {
 			{
 				name = 'Anonymous Client',
-				description = 'Randomise your username in real-time in any CoreGui parented interface, including cereal. You will still appear as your actual name to others in-game. This setting can be performance intensive.',
+				description = 'Randomise your username in real-time in any CoreGui parented interface, including sirius. You will still appear as your actual name to others in-game. This setting can be performance intensive.',
 				settingType = 'Boolean',
 				current = false,
 
@@ -376,7 +376,7 @@ local cerealSettings = {
 			},
 			{
 				name = 'Chat Spy',
-				description = 'This will only work on the legacy Roblox chat system. cereal will display whispers usually hidden from you in the chat box.',
+				description = 'This will only work on the legacy Roblox chat system. sirius will display whispers usually hidden from you in the chat box.',
 				settingType = 'Boolean',
 				current = true,
 
@@ -392,7 +392,7 @@ local cerealSettings = {
 			},
 			{
 				name = 'Now Playing Notifications',
-				description = 'When active, cereal will notify you when the next song in your Music queue plays.',
+				description = 'When active, sirius will notify you when the next song in your Music queue plays.',
 				settingType = 'Boolean',
 				current = true,
 
@@ -429,7 +429,7 @@ local cerealSettings = {
 			},
 			{
 				name = 'Client-Based Anti Kick',
-				description = 'Cancel any kick request involving you sent by the client. This may prompt detection from Adonis or similar anti-cheats. You will need to rejoin and re-run cereal to toggle.',
+				description = 'Cancel any kick request involving you sent by the client. This may prompt detection from Adonis or similar anti-cheats. You will need to rejoin and re-run sirius to toggle.',
 				settingType = 'Boolean',
 				current = false,
 
@@ -446,7 +446,7 @@ local cerealSettings = {
 	},
 	{
 		name = 'Keybinds',
-		description = 'Assign keybinds to actions or change keybinds such as the one to open/close cereal.',
+		description = 'Assign keybinds to actions or change keybinds such as the one to open/close siris.',
 		color = Color3.new(0.0941176, 0.686275, 0.509804),
 		minimumLicense = 'Free',
 		categorySettings = {
@@ -580,13 +580,13 @@ local cerealSettings = {
 	},
 	{
 		name = 'Performance',
-		description = 'Tweak and test your performance settings for Roblox in cereal.',
+		description = 'Tweak and test your performance settings for Roblox in sirius.',
 		color = Color3.new(1, 0.376471, 0.168627),
 		minimumLicense = 'Free',
 		categorySettings = {
 			{
 				name = 'Artificial FPS Limit',
-				description = 'cereal will automatically set your FPS to this number when you are tabbed-in to Roblox.',
+				description = 'sirus? ceerius? serious? cereal?? sirius will automatically set your FPS to this number when you are tabbed-in to Roblox.',
 				settingType = 'Number',
 				values = {20, 5000},
 				current = 240,
@@ -621,7 +621,7 @@ local cerealSettings = {
 	},
 	{
 		name = 'Detections',
-		description = 'cereal detects and prevents anything malicious or possibly harmful to your wellbeing.',
+		description = 'sirius detects and prevents anything malicious or possibly harmful to your wellbeing.',
 		color = Color3.new(0.705882, 0, 0),
 		minimumLicense = 'Free',
 		categorySettings = {
@@ -646,7 +646,7 @@ local cerealSettings = {
 			},
 			{
 				name = 'Moderator Detection',
-				description = 'Be notified whenever cereal detects a player joins your session that could be a game moderator.',
+				description = 'Be notified whenever cee ree uss detects a player joins your session that could be a game moderator.',
 				settingType = 'Boolean', 
 				minimumLicense = 'Pro',
 				current = true,
@@ -1008,7 +1008,7 @@ end)()
 -- cereal Functions
 local function checkcereal() return UI.Parent end
 local function getPing() return math.clamp(statsService.Network.ServerStatsItem["Data Ping"]:GetValue(), 10, 700) end
-local function checkFolder() if isfolder then if not isfolder(cerealValues.cerealFolder) then makefolder(cerealValues.cerealFolder) end if not isfolder(cerealValues.cerealFolder.."/Music") then makefolder(cerealValues.cerealFolder.."/Music") writefile(cerealValues.cerealFolder.."/Music/readme.txt", "Hey there! Place your MP3 or other audio files in this folder, and have the ability to play them through the cereal Music UI!") end if not isfolder(cerealValues.cerealFolder.."/Assets/Icons") then makefolder(cerealValues.cerealFolder.."/Assets/Icons") end if not isfolder(cerealValues.cerealFolder.."/Assets") then makefolder(cerealValues.cerealFolder.."/Assets") end end end
+local function checkFolder() if isfolder then if not isfolder(cerealValues.cerealFolder) then makefolder(cerealValues.cerealFolder) end if not isfolder(cerealValues.cerealFolder.."/Music") then makefolder(cerealValues.cerealFolder.."/Music") writefile(cerealValues.cerealFolder.."/Music/readme.txt", "Hey there! Place your MP3 or other audio files in this folder, and have the ability to play them through the sirius Music UI!") end if not isfolder(cerealValues.cerealFolder.."/Assets/Icons") then makefolder(cerealValues.cerealFolder.."/Assets/Icons") end if not isfolder(cerealValues.cerealFolder.."/Assets") then makefolder(cerealValues.cerealFolder.."/Assets") end end end
 local function isPanel(name) return not table.find({"Home", "Music", "Settings"}, name) end
 
 local function fetchFromCDN(path, write, savePath)
