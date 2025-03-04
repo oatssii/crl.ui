@@ -15,7 +15,7 @@ end
 -- Check whitelist
 local player = game.Players.LocalPlayer
 
-if player.Name == "starronyxx", "riskyhaulownertest" then
+if player.Name == "starronyxx" then
 	print("Whitelisted, welcome to cereal!")
 	else
 		player:Kick("u arent whitelisted skid")
