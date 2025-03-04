@@ -11,7 +11,8 @@ warn ("because of roblox updates/executors, not all functions inside this script
 if not game:IsLoaded() then
 	game.Loaded:Wait()
 end
-
+--check tier.
+local Pro = true --free pro for now lol!
 -- Check whitelist
 local player = game.Players.LocalPlayer
 
