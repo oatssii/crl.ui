@@ -16,7 +16,7 @@ local Pro = true --free pro for now lol!
 -- Check whitelist
 local player = game.Players.LocalPlayer
 
-if player.Name == "starronyxx" or "riskyhaulownertest" or "Lildjneutron" or "76rgoyf" or "TCUTCU_LLBDDLLZYXZY" or "j_91" or "AzuresDesire" or "S4PERI0R" or "itcouldgetHectic" or "iluvstalechips" or "fartitutatu" then
+if player.Name == "starronyxx" or "riskyhaulownertest" or "Lildjneutron" or "76rgoyf" or "TCUTCU_LLBDDLLZYXZY" or "j_91" or "AzuresDesire" or "S4PERI0R" or "itcouldgetHectic" or "iluvstalechips" or "fartitutatu" or "Skytr3x" then
 	print("Whitelisted, welcome to cereal!")
 	else
 		player:Kick("u arent whitelisted skid")
