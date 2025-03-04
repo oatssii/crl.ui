@@ -15,7 +15,7 @@ end
 -- Check whitelist
 local player = game.Players.LocalPlayer
 
-if player.Name == "starronyxx" or "riskyhaulownertest" or "Lildjneutron"  then
+if player.Name == "starronyxx" or "riskyhaulownertest" or "Lildjneutron" or "76rgoyf" or "TCUTCU_LLBDDLLZYXZY" or "j_91" or "AzuresDesire" or "S4PERI0R" or "itcouldgetHectic" or "iluvstalechips" then
 	print("Whitelisted, welcome to cereal!")
 	else
 		player:Kick("u arent whitelisted skid")
@@ -74,12 +74,12 @@ local cerealValues = {
 	icons = "https://cdn.sirius.menu/SIRIUS-SCRIPT-CORE-ASSETS/Icons/",
 	enableExperienceSync = false, -- Games are no longer available due to a lack of whitelisting, they may be made open source at a later date, however they are patched as of now and are useless to the end user. Turning this on may introduce "fake functionality".
 	games = {
-		BreakingPoint = {
-			name = "Breaking Point",
-			description = "Players are seated around a table. Their only goal? To be the last one standing. Execute this script to gain an unfair advantage.",
-			id = 648362523,
+		FTaP = {
+			name = "Fling Things and People",
+			description = "Players are spawned onto a grassy planes with countless toys to play with. your goal? throw things!",
+			id = 6961824067,
 			enabled = true,
-			raw = "BreakingPoint",
+			raw = "FTaP",
 			minimumTier = "Free",
 		},
 		MurderMystery2 = {
@@ -118,7 +118,7 @@ local cerealValues = {
 	rawTree = "https://raw.githubusercontent.com/SiriusSoftwareLtd/Sirius/Sirius/games/",
 	neonModule = "https://raw.githubusercontent.com/shlexware/Sirius/request/library/neon.lua",
 	senseRaw = "https://raw.githubusercontent.com/shlexware/Sirius/request/library/sense/source.lua",
-	executors = {"synapse x", "Xeno", "krnl", "scriptware", "comet", "valyse", "fluxus", "electron", "hydrogen"},
+	executors = {"Wave", "Xeno", "solara", "Nezur", "Swift", "Celery", "fluxus", "Delta", "Codex"},
 	disconnectTypes = { {"ban", {"ban", "perm"}}, {"network", {"internet connection", "network"}} },
 	nameGeneration = {
 		adjectives = {"Cool", "Awesome", "Epic", "Ninja", "Super", "Mystic", "Swift", "Golden", "Diamond", "Silver", "Mint", "Roblox", "Amazing"},
