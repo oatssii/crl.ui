@@ -1,11 +1,5 @@
-warn ("because of roblox updates/executors, not all functions inside this script will work properly. dont complain")
+warn ("because of roblox updates/executors, not all functions inside this script will work properly.")
 
-
-
---[[
-	this universal gui was solely for fun and no other purpose 
-	and if your gonna skid credit me whether it be part of the ui or it just prints credits. i really dont care
---]]
 
 -- Ensure the game is loaded 
 if not game:IsLoaded() then
@@ -16,7 +10,7 @@ local Pro = true --free pro for now lol!
 -- Check whitelist
 local player = game.Players.LocalPlayer
 
-if player.Name == "starronyxx" or "riskyhaulownertest" or "Lildjneutron" or "76rgoyf" or "TCUTCU_LLBDDLLZYXZY" or "j_91" or "AzuresDesire" or "S4PERI0R" or "itcouldgetHectic" or "iluvstalechips" or "fartitutatu" or "Skytr3x" then
+if player.Name == "starronyxx" or "riskyhaulownertest" or "Lildjneutron" or "76rgoyf" or "TCUTCU_LLBDDLLZYXZY" or "j_91" or "AzuresDesire" or "S4PERI0R" or "itcouldgetHectic" or "iluvstalechips" or "fartitutatu" or "Skytr3x" or "federalrx" then
 	print("Whitelisted, welcome to cereal!")
 	else
 		player:Kick("u arent whitelisted skid")
